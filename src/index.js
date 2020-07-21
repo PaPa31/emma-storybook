@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
-import { SignUpModal } from './components'
+import { SignUpModal, SignInModal } from './components'
 import { GlobalStyle, defaultTheme, darkTheme } from './utils'
 import { ThemeProvider } from 'styled-components'
 
