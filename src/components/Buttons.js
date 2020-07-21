@@ -91,42 +91,42 @@ const Button = styled.button`
   border-radius: 2px;
   min-width: 100px;
   cursor: pointer;
-  font-family: ${(props) => props.theme.primaryFont};
+  font-family: ${(p) => p.theme.primaryFont};
   transition: background-color 0.2s linear, color 0.2s linear;
 
   &:hover {
-    background-color: ${(props) => props.theme.primaryHoverColor};
-    color: ${(props) => props.theme.textColorOnPrimary};
+    background-color: ${(p) => p.theme.primaryHoverColor};
+    color: ${(p) => p.theme.textColorOnPrimary};
   }
 
   &:focus {
-    outline: 3px solid ${(props) => props.theme.primaryHoverColor};
+    outline: 3px solid ${(p) => p.theme.primaryHoverColor};
     outline-offset: 2px;
   }
 
   &:active {
-    background-color: ${(props) => props.theme.primaryActiveColor};
-    border-color: ${(props) => props.theme.primaryActiveColor};
-    color: ${(props) => props.theme.textColorOnPrimary};
+    background-color: ${(p) => p.theme.primaryActiveColor};
+    border-color: ${(p) => p.theme.primaryActiveColor};
+    color: ${(p) => p.theme.textColorOnPrimary};
   }
 
   &:disabled {
     cursor: not-allowed;
     background: none;
-    color: ${(props) => props.theme.disabled};
+    color: ${(p) => p.theme.disabled};
     border: none;
   }
 `
 
 export const PrimaryButton = styled(Button)`
-  background-color: ${(props) => props.theme.primaryColor};
-  color: ${(props) => props.theme.textColorOnPrimary};
+  background-color: ${(p) => p.theme.primaryColor};
+  color: ${(p) => p.theme.textColorOnPrimary};
   border: 2px solid transparent;
 
   &:disabled {
-    background-color: ${(props) => props.theme.disabled};
-    color: ${(props) => props.theme.textOnDisabled};
-    border-color: ${(props) => props.theme.disabled};
+    background-color: ${(p) => p.theme.disabled};
+    color: ${(p) => p.theme.textOnDisabled};
+    border-color: ${(p) => p.theme.disabled};
     cursor: not-allowed;
   }
   ${applyStyleModifiers(BUTTON_MODIFIERS)}
@@ -134,26 +134,26 @@ export const PrimaryButton = styled(Button)`
 
 export const SecondaryButton = styled(Button)`
   background: none;
-  color: ${(props) => props.theme.primaryColor};
-  border: 2px solid ${(props) => props.theme.primaryColor};
+  color: ${(p) => p.theme.primaryColor};
+  border: 2px solid ${(p) => p.theme.primaryColor};
 
   &:disabled {
     background: none;
-    border: 2px solid ${(props) => props.theme.disabled};
-    color: ${(props) => props.theme.disabled};
+    border: 2px solid ${(p) => p.theme.disabled};
+    color: ${(p) => p.theme.disabled};
     cursor: not-allowed;
   }
   ${applyStyleModifiers(BUTTON_MODIFIERS)}
 `
 
 export const TertiaryButton = styled(Button)`
-  // background-color: ${(props) => props.theme.textColorOnPrimary};
+  // background-color: ${(p) => p.theme.textColorOnPrimary};
   background:none;
-  color: ${(props) => props.theme.primaryColor};
+  color: ${(p) => p.theme.primaryColor};
   border: 2px solid transparent;
 
   &:disabled {
-    color: ${(props) => props.theme.disabled};
+    color: ${(p) => p.theme.disabled};
     cursor: not-allowed;
   }
   ${applyStyleModifiers(BUTTON_MODIFIERS)}
