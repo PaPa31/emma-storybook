@@ -6,6 +6,7 @@ const Input = styled.input`
   width: 316px;
   height: 52px;
   background-color: ${(props) => props.theme.textFieldBackground};
+  color: ${(props) => props.theme.textFieldLabelColor};
   border: none;
   padding-left: 8px;
   font-family: ${primaryFont};

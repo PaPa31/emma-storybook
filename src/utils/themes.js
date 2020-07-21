@@ -24,6 +24,8 @@ export const defaultTheme = {
   },
   formElementBackground: neutral[100],
   textOnFormElementBackground: neutral[600],
+  textFieldBackground: neutral[200],
+  textFieldLabelColor: neutral[600],
 }
 
 export const darkTheme = {
@@ -49,4 +51,6 @@ export const darkTheme = {
   },
   formElementBackground: pink[100],
   textOnFormElementBackground: neutral[100],
+  textFieldBackground: pink[200],
+  textFieldLabelColor: neutral[200],
 }
