@@ -1,10 +1,10 @@
-import { rose, neutral, red, yellow, green } from './colors'
+import { pink, neutral, red, yellow, green } from './colors'
 import { primaryFont } from './typography'
 
 export const defaultTheme = {
-  primaryColor: rose[300],
-  primaryHoverColor: rose[200],
-  primaryActiveColor: rose[100],
+  primaryColor: pink[300],
+  primaryHoverColor: pink[200],
+  primaryActiveColor: pink[100],
   textColorOnPrimary: neutral[100],
   textColor: neutral[600],
   textColorInverted: neutral[100],
@@ -22,14 +22,16 @@ export const defaultTheme = {
     errorActiveColor: red[100],
     successActiveColor: green[100],
   },
+  formElementBackground: neutral[100],
+  textOnFormElementBackground: neutral[600],
 }
 
 export const darkTheme = {
   primaryColor: neutral[100],
   primaryHoverColor: neutral[200],
   primaryActiveColor: neutral[300],
-  textColorOnPrimary: rose[300],
-  textColor: rose[300],
+  textColorOnPrimary: pink[300],
+  textColor: pink[300],
   textColorInverted: neutral[100],
   primaryFont: primaryFont,
   disabled: neutral[400],
@@ -45,4 +47,6 @@ export const darkTheme = {
     errorActiveColor: red[100],
     successActiveColor: green[100],
   },
+  formElementBackground: pink[100],
+  textOnFormElementBackground: neutral[100],
 }

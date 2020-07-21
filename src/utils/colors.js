@@ -1,4 +1,4 @@
-export const rose = {
+export const pink = {
   100: '#F977C9',
   200: '#F84FBA',
   300: '#F51AA4',
