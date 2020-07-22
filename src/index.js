@@ -53,7 +53,7 @@ const App = () => {
           justifyContent: 'space-around',
         }}
       >
-        <SignInModal showModal={showModal} setShowModal={setShowModal} />
+        <SignUpModal showModal={showModal} setShowModal={setShowModal} />
         <GlobalStyle />
       </div>
     </ThemeProvider>
