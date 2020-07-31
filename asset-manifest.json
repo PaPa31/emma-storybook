@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/emma-storybook/static/js/main.4f5a4a22.chunk.js",
+    "main.js.map": "/emma-storybook/static/js/main.4f5a4a22.chunk.js.map",
+    "runtime-main.js": "/emma-storybook/static/js/runtime-main.9862f0a0.js",
+    "runtime-main.js.map": "/emma-storybook/static/js/runtime-main.9862f0a0.js.map",
+    "static/js/2.34bd55f5.chunk.js": "/emma-storybook/static/js/2.34bd55f5.chunk.js",
+    "static/js/2.34bd55f5.chunk.js.map": "/emma-storybook/static/js/2.34bd55f5.chunk.js.map",
+    "index.html": "/emma-storybook/index.html",
+    "precache-manifest.13ce344bf46208f034b183c89a3fa58e.js": "/emma-storybook/precache-manifest.13ce344bf46208f034b183c89a3fa58e.js",
+    "service-worker.js": "/emma-storybook/service-worker.js",
+    "static/js/2.34bd55f5.chunk.js.LICENSE.txt": "/emma-storybook/static/js/2.34bd55f5.chunk.js.LICENSE.txt",
+    "static/media/SignIn.svg": "/emma-storybook/static/media/SignIn.8ff7d4d7.svg",
+    "static/media/SignUp.svg": "/emma-storybook/static/media/SignUp.d65ff196.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9862f0a0.js",
+    "static/js/2.34bd55f5.chunk.js",
+    "static/js/main.4f5a4a22.chunk.js"
+  ]
+}
