@@ -37,5 +37,5 @@ jobs:
       - name: Deploy
         uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
         with:
-          github_token: ${{ secrets.GH_PAT }}
-          publish_dir: ./out
+          repo-token: ${{ secrets.GH_PAT }}
+          site-directory: public
